@@ -1,0 +1,103 @@
+{
+  "USERS": [
+    {
+      "id": 1,
+      "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+      "displayName": "Mrs Avatar",
+      "username": "mrsavatar"
+    }
+  ],
+  "TWEETS": [
+    {
+      "id": 1,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 2,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 3,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 4,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 5,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 6,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 7,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 8,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "id": 9,
+      "tweet": "This is the best tweet in the world. Even tho this is not actually a tweet. Oh wel...",
+      "user": {
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      }
+    },
+    {
+      "tweet": "asdfga",
+      "user": {
+        "id": 1,
+        "avatar": "https://static.hollywoodreporter.com/sites/default/files/2019/03/avatar-publicity_still-h_2019-compressed.jpg",
+        "displayName": "Mrs Avatar",
+        "username": "mrsavatar"
+      },
+      "id": 10
+    }
+  ]
+}

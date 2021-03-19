@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,169 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.loading-icon{
+  min-height: 30px;
+  min-width: 30px;
+  color: rgb(38, 167, 222);
+  margin: 20px;
+}
+
+/*post tweet*/
+
+.post-tweet-wrapper{
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.post-tweet{
+  display: flex;
+  padding: 14px 14px 14px 14px;
+  border: solid rgb(204, 200, 200) 1px;
+  border-bottom: none;
+}
+
+.post-tweet form{
+  width: 100%;
+}
+
+.post-tweet form :focus{
+  outline: none;
+}
+
+.post-tweet label{
+  display: block;
+}
+
+.submit-button{
+  height: 35px;
+  width: 80px;
+  display: block;
+  float: right;
+  margin-right: 10px;
+  background-color: rgb(38, 167, 222);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10%;
+}
+
+.submit-button :focus{
+  outline: none;
+}
+
+.tweet-write{
+  width: 100%;
+  margin-top: 5px;
+  font-size: 18px;
+  min-height: 20px;
+  resize: none;
+  border: none;
+}
+
+/*tweet wall*/
+
+.tweets{
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.tweet{
+  display: flex;
+  padding: 18px;
+  border: solid rgb(204, 200, 200) 1px;
+  border-bottom: none;
+}
+
+.user-info{
+  margin-bottom: 14px;
+  display: flex;
+}
+
+.avatar{
+  margin-right: 10px;
+  border-radius: 8%;
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+}
+
+.user-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-name{
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.username{
+  color: rgb(150, 144, 144);
+  display: block;
+}
+
+.follow-user{
+  margin-top: 12px;
+  margin-right: 10px;
+  height: 24px;
+}
+
+.tweet-main-bar{
+  width: 100%;
+}
+
+.tweet-content{
+  font-size: 17px;
+  padding-bottom: 14px;
+  border-bottom: solid rgb(204, 200, 200) 1px;;
+}
+
+.tweet-bottom{
+  margin: 9px 5px 0px;
+  display: flex;
+}
+
+/*tweet icons*/
+
+.icon-follow{
+  margin-right: 5px;
+  color: rgb(38, 167, 222);
+}
+
+.icon-wrapper{
+  margin-right: 14px;
+  min-height: 14px;
+  min-width: 14px;
+}
+
+.icon{
+  padding-top: 0px;
+  color: rgb(100, 100, 100);
+  height: 14px;
+}
+
+.icon-text{
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .loading-icon {
+    animation: loading-icon-spin infinite 2s linear;
+  }
+}
+
+@keyframes loading-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

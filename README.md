@@ -26,3 +26,11 @@ The design is not set in stone, but you can help yourself by checking out the or
 
 Fork this repository, make changes that are requested and send us the link to the repository with your fork on it.
 Best of luck :)
+
+## Running the json server
+
+So I made a json server to simulate a call to server. Use the following command in the terminal to watch for it.
+
+```
+npx json-server --watch database/db.json --port 8000
+```
